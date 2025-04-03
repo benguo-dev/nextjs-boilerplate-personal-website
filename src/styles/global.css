@@ -1,0 +1,121 @@
+@import 'tailwindcss';
+
+@theme {
+  --powerBlack: #1a1a1a;
+  --darkGray: #2f3236;
+  --smokeGray: #6e737b;
+  --regentGray: #858b9b;
+  --pastelGrey: #cdd0da;
+  --slateGray: #535866;
+  --nobelGray: #acb0bc;
+  --milkWhite: #fdfdfd;
+  --seashell: #f7f8f9;
+  --metalBlack: #262728;
+  --oilBlack: #1d1d1e;
+  --flasWhite: #f0f1f2;
+  --flasBlack: #26282c;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-gradient-from: var(--milkWhite) var(--tw-gradient-from-position);
+  --tw-gradient-to: var(--seashell) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+  --tw-gradient-to-dark: var(--oilBlack) var(--tw-gradient-to-position);
+  --tw-gradient-from-dark: var(--metalBlack) var(--tw-gradient-from-position);
+  --tw-gradient-to-dark: hsla(0, 0%, 100%, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops-dark: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border-color: #f0f1f2;
+}
+a {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+.dark\:border-flasBlack:is(.dark *),
+.\*\:dark\:border-flasBlack:is(.dark *) > *,
+.dark\:\*\:border-flasBlack > :is(.dark *),
+.dark\:divide-flasBlack:is(.dark *) > :not([hidden]) {
+  border-color: var(--flasBlack);
+}
+
+.dark\:text-pastelGrey:is(.dark *) {
+  color: var(--pastelGrey);
+}
+
+.dark\:text-regentGray:is(.dark *) {
+  color: var(--regentGray);
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.dark\:to-oilBlack:is(.dark *),
+.dark\:\*\:to-oilBlack > :is(.dark *) {
+  --tw-gradient-to: var(--oilBlack) var(--tw-gradient-to-position);
+}
+
+.dark\:from-metalBlack:is(.dark *),
+.dark\:\*\:from-metalBlack > :is(.dark *) {
+  --tw-gradient-from: var(--metalBlack) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsla(0, 0%, 100%, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark\:border-white\/5:is(.dark *) {
+  border-color: hsla(0, 0%, 100%, 0.05);
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+p {
+  font-size: 0.94rem;
+  line-height: 1.875 !important;
+  color: var(--smokeGray);
+}
