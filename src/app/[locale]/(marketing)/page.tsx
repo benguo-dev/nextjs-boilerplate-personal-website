@@ -1,5 +1,5 @@
 import { Skill } from '@/components/Skill';
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
 type IIndexProps = {
@@ -19,13 +19,13 @@ export async function generateMetadata(props: IIndexProps) {
   };
 }
 
-export default async function Index(props: IIndexProps) {
-  const { locale } = await props.params;
-  setRequestLocale(locale);
-  const t = await getTranslations({
-    locale,
-    namespace: 'Index',
-  });
+export default async function Index(/* props: IIndexProps */) {
+  // const { locale } = await props.params;
+  // setRequestLocale(locale);
+  // const t = await getTranslations({
+  //   locale,
+  //   namespace: 'Index',
+  // });
 
   return (
     <>

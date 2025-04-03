@@ -5,7 +5,7 @@ import lanSwitchDark from '@/public/assets/images/lan-switch-dark.svg';
 import lanSwitchLight from '@/public/assets/images/lan-switch-light.svg';
 import moon from '@/public/assets/images/moon.svg';
 import sun from '@/public/assets/images/sun.svg';
-import { useLocale, useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
@@ -50,7 +50,7 @@ export function Header() {
     }
   }, []);
 
-  const t = useTranslations('Header');
+  // const t = useTranslations('Header');
 
   return (
     <header className="my-4 lg:my-6 fixed top-0 [body.admin-bar_&]:top-4 w-full left-0 z-50 transition-all duration-300 [&.is-sticky]:mt-0 is-sticky">
