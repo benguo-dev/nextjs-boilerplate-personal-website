@@ -19,6 +19,15 @@ export default withSentryConfig(
       poweredByHeader: false,
       reactStrictMode: true,
       serverExternalPackages: ['@electric-sql/pglite'],
+      async redirects() {
+        return [
+          {
+            source: '/',
+            destination: '/home',
+            permanent: true,
+          },
+        ];
+      },
     }),
   ),
   {

@@ -1,6 +1,22 @@
 {
   "Header": {
-    "name": "Ben Guo"
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects",
+    "Blog": "Blog",
+    "Contact": "Contact"
+  },
+  "Projects": {
+    "meta_title": "Projects",
+    "meta_description": "Projects page description"
+  },
+  "ProjectsDetail": {
+    "meta_title": "Projects Detail",
+    "meta_description": "Projects detail page description {id}"
+  },
+  "Contact": {
+    "meta_title": "Contact",
+    "meta_description": "Contact page description"
   },
   "RootLayout": {
     "home_link": "Home",
@@ -39,20 +55,13 @@
     "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
     "translation_powered_by": "Translation powered by"
   },
-  "Portfolio": {
-    "meta_title": "Portfolio",
-    "meta_description": "Welcome to my portfolio page!",
-    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
-    "portfolio_name": "Portfolio {name}",
-    "error_reporting_powered_by": "Error reporting powered by",
-    "coverage_powered_by": "Code coverage powered by"
+  "Blog": {
+    "meta_title": "Blog",
+    "meta_description": "Welcome to my blog page!"
   },
-  "PortfolioSlug": {
-    "meta_title": "Portfolio {slug}",
-    "meta_description": "Portfolio {slug} description",
-    "header": "Portfolio {slug}",
-    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
-    "code_review_powered_by": "Code review powered by"
+  "BlogSlug": {
+    "meta_title": "Blog {slug}",
+    "meta_description": "Blog {slug} description"
   },
   "SignIn": {
     "meta_title": "Sign in",
