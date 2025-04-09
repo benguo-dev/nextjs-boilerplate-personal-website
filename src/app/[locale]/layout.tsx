@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { PostHogProvider } from '@/components/analytics/PostHogProvider';
+import { GitHubLink } from '@/components/GitHubLink';
 import { routing } from '@/libs/i18nNavigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
@@ -64,7 +65,7 @@ export default async function RootLayout(props: {
             <PostHogProvider>
               {props.children}
             </PostHogProvider>
-            {/* <DemoBadge /> */}
+            <GitHubLink />
           </NextIntlClientProvider>
         </main>
       </body>
