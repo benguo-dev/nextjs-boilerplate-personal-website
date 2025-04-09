@@ -1,5 +1,4 @@
 import { getTranslations } from 'next-intl/server';
-import Image from 'next/image';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
@@ -32,13 +31,7 @@ export default async function Index(/* props: IIndexProps */) {
         <div className="md:grid md:grid-cols-2 xl:grid-cols-3 gap-6 justify-center">
           <div className="space-y-6 *:rounded-2xl max-md:*:p-4 *:p-6 xl:*:px-10 *:bg-gradient-to-b *:from-milkWhite *:to-seashell dark:*:from-metalBlack dark:*:bg-gradient-to-b *:border *:border-flasWhite dark:*:border-flasBlack">
             <div className="widget transition duration-700 ease-in-out hover:scale-105">
-              <Image
-                src="/assets/images/user.webp"
-                alt="bentoMan - Personal portfolio resume template"
-                className="rounded-2xl w-full bg-[#F5F7F9] dark:bg-[#222428]"
-                width="300"
-                height="300"
-              />
+              <img src="/assets/images/user.webp" alt="bentoMan - Personal portfolio resume template" className="rounded-2xl w-full bg-[#F5F7F9] dark:bg-[#222428]" />
             </div>
             <div className="widget">
               <div className="flex items-center justify-between">

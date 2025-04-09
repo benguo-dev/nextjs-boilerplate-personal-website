@@ -7,16 +7,16 @@
     "Contact": "Contact"
   },
   "Projects": {
-    "meta_title": "Projects",
-    "meta_description": "Projects page description"
+    "meta_title": "Projects - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "ProjectsDetail": {
-    "meta_title": "Projects Detail",
-    "meta_description": "Projects detail page description {id}"
+    "meta_title": "Projects detail - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "Contact": {
-    "meta_title": "Contact",
-    "meta_description": "Contact page description"
+    "meta_title": "Contact - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "RootLayout": {
     "home_link": "Home",
@@ -31,9 +31,8 @@
     "made_with": "Made with <author></author>."
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
-    "sponsors_title": "Sponsors"
+    "meta_title": "Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "Counter": {
     "meta_title": "Counter",
@@ -50,18 +49,18 @@
     "count": "Count: {count}"
   },
   "About": {
-    "meta_title": "About",
-    "meta_description": "About page description",
+    "meta_title": "About - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS",
     "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
     "translation_powered_by": "Translation powered by"
   },
   "Blog": {
-    "meta_title": "Blog",
-    "meta_description": "Welcome to my blog page!"
+    "meta_title": "Blog - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "BlogSlug": {
-    "meta_title": "Blog {slug}",
-    "meta_description": "Blog {slug} description"
+    "meta_title": "Blog detail - Personal website template with Nextjs + Tailwind CSS",
+    "meta_description": "Personal website or Resume template with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS"
   },
   "SignIn": {
     "meta_title": "Sign in",
