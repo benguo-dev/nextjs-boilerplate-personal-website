@@ -1,7 +1,7 @@
 # Boilerplate and Starter for Next.js 15+, Tailwind CSS 4, and TypeScript with popular personal website template.
 
 <p align="center">
-  <a href="https://demo.nextjs-boilerplate.com"><img width="100%" src="public/assets/images/home.png?raw=true" alt="Home page for personal website"></a>
+  <a href="https://personal-website-template.vercel.app/"><img width="100%" src="public/assets/images/home.png?raw=true" alt="Home page for personal website"></a>
 </p>
 
 <p align="center">
