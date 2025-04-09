@@ -1,11 +1,11 @@
 # Boilerplate and Starter for Next.js 15+, Tailwind CSS 4, and TypeScript with popular personal website template.
 
 <p align="center">
-  <a href="https://personal-website-template.vercel.app/"><img width="100%" src="public/assets/images/home.png?raw=true" alt="Home page for personal website"></a>
+  <a href="https://personal-website-template-eosin.vercel.app/"><img width="100%" src="public/assets/images/home.png?raw=true" alt="Home page for personal website"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ixartz/Next-js-Boilerplate"><img width="100%" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
+  <a href="README-nextjs-boilerplate.md"><img width="100%" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
 </p>
 
 🚀 Boilerplate and Starter for Next.js with App Router, Tailwind CSS, and TypeScript ⚡️ Prioritizing developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Playwright, Commitlint, VSCode, Tailwind CSS, Authentication with [Clerk](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate), Database with DrizzleORM (PostgreSQL, SQLite, and MySQL), Error Monitoring with [Sentry](https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo), Logging with Pino.js and Log Management, Monitoring as Code, Storybook, Multi-language (i18n), AI-powered code reviews with [CodeRabbit](https://app.coderabbit.ai/login?grsf=remi-wg-2qs2l9), Secure with [Arcjet](https://launch.arcjet.com/Q6eLbRE) (Bot detection, Rate limiting, Attack protection, etc.) and more.
@@ -14,7 +14,7 @@ Thanks for GitHub open source project: [Next-js-Boilerplate](https://github.com/
 
 ### Demo
 
-**Live demo: [Template for personal website](https://personal-website-template.vercel.app/)**
+**Live demo: [Template for personal website](https://personal-website-template-eosin.vercel.app/)**
 
 ### Features
 
