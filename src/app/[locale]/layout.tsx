@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { PostHogProvider } from '@/components/analytics/PostHogProvider';
 import { GitHubLink } from '@/components/GitHubLink';
 import { routing } from '@/libs/i18nNavigation';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -69,6 +70,7 @@ export default async function RootLayout(props: {
           </NextIntlClientProvider>
         </main>
       </body>
+      <GoogleAnalytics gaId="G-TKSB2F8F12" />
     </html>
   );
 }
